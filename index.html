@@ -1,101 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Frandroid</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
+    <link href="style.css" rel="stylesheet"/>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark text-light">
     <header>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            
+            <img style="width: 150px;" src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/assets/images/2019-redesign/logos/frandroid.svg"/>
+          </a>
+          <div class="nav-item">
+            <a href="#" class="menuAlwaysShow">Actus</a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="menuAlwaysShow">Tests</a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="menuAlwaysShow">Bons plans</a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="menuAlwaysShow">Tutos</a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="menuAlwaysShow">Guides</a>
+          </div>
+          <div class="offcanvas offcanvas-start text-bg-dark" id="navbarSupportedContent">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </header>
 
-    <main class="container ">
-      <div class=" list-categorie text-center">
+    <main class="container">
+      <!-- Les catégories-->
+      <div class="list-categorie text-center">
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/ef609cb66fb4d5c52eb9.svg" alt=""></div>
+            <img src="	https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/e53c693f687eb4f905f7.svg" />
+          </div>
           <a href="#">Smartphone</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/1861a09379d839b1420e.svg" alt=""></div>
+            <img src="	https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/f31f73e2dc8dc3bc040e.svg" />
+          </div>
           <a href="#">Ordinateurs</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/583816c76955fd7224a3.svg" alt=""></div>
-          <a href="#">Auto.Mobilité</a>
+            <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/38199ead4fb6dac4aa37.svg" />
+          </div>
+          <a href="#">Auto Mobilité</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="	https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/583816c76955fd7224a3.svg" alt=""></div>
+            <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/0b2fc9be629382b80b51.svg" />
+          </div>
           <a href="#">TV</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/ec05bd58582c8875ba06.svg" alt=""></div>
+            <img src="	https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/cc82fa525a517df7d3a6.svg" />
+          </div>
           <a href="#">Maison connectée</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/79ca87cea147e92521d6.svg" alt=""></div>
+            <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/dc03469116f3114e462b.svg" />
+          </div>
           <a href="#">Audio</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/79ca87cea147e92521d6.svg" alt=""></div>
+            <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/8c9987468f1124c3e284.svg" />
+          </div>
           <a href="#">Gaming</a>
         </div>
         <div class="list-item-categorie">
           <div>
-          <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/4c6dad61807b5ed7e8bf.svg" alt=""></div>
+            <img src="	https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/4f40ac12cca52c604b62.svg" />
+          </div>
           <a href="#">Wearables</a>
+        </div>
+      </div>
+      <!-- Ligne sur les french days-->
+      <div class="row row-cols-2 row-cols-lg-4">
+        <div class="col" id="barcolorsBackgound">
+          <!-- <img src="https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/svg/eecc6ea811fd19d92d88.svg"/> -->
+          <p id="pubResponsiveTitle" class="fw-bold d-block d-lg-none">French Days 2022</p>
+        </div>
+        <div class="col d-none d-lg-block">
+          <p class="title-pubBar">French Days 2022</p>
+        </div>
+        <div class="col d-none d-lg-block">
+          <p class="title-pubBar fw-bolder">Les meilleures offres en direct</p>
+        </div>
+        <div class="col text-danger fw-bold text-end">
+          <span class="badge text-bg-danger">37</span> Articles 
         </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
 
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
   </body>
 </html>
